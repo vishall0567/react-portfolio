@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan+SC&display=swap');
+
 body {
   font-family: "Briem Hand", cursive;
   font-weight: 400;
@@ -442,8 +443,9 @@ header {
 }
 
 .more-work {
+  margin-top: 50px;
   text-align: center;
-  margin: 3rem 0 1rem 0;
+  margin: 10rem 0 0 0;
 }
 
 .more-work p {
@@ -557,9 +559,11 @@ header {
   .proj-2 {
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
+  }
+  #proj-3{
     flex-direction: column;
   }
-
   .proj-2 img {
     height: 250px;
     width: 290px;
@@ -634,6 +638,9 @@ header {
   .proj-2 {
     display: flex;
     justify-content: center;
+    flex-direction: column-reverse;
+  }
+  #proj-3{
     flex-direction: column;
   }
 

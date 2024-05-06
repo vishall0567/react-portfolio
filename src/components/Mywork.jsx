@@ -14,9 +14,6 @@ export default function Mywork() {
             <div className="proj-1">
               <img src={img} alt=""/>
               <div className="proj1-details">
-                <i className="fab fa-html5"></i>
-                <i className="fab fa-css3-alt"></i>
-                <i className="fab fa-js"></i>
                 <h2>TO-DO List</h2>
                 <p>Build Using HTML,CSS,JS</p>
                 <button className="btn">
@@ -24,7 +21,7 @@ export default function Mywork() {
                     href="https://vishall0567.github.io/To-Do-List/"
                     target="blank"
                   >
-                    View source<i className="fas fa-external-link-alt"></i>
+                    View source
                   </a>
                 </button>
               </div>
@@ -32,9 +29,6 @@ export default function Mywork() {
 
             <div className="proj-2">
               <div className="proj2-details">
-                <i className="fab fa-html5"></i>
-                <i className="fab fa-css3-alt"></i>
-                <i className="fab fa-js"></i>
                 <h2>Material-Landing Webpage</h2>
                 <p>Build Using HTML,CSS,JS</p>
                 <button className="btn">
@@ -42,18 +36,15 @@ export default function Mywork() {
                     href="https://vishall0567.github.io/material-landing/"
                     target="blank"
                   >
-                    View source<i className="fas fa-external-link-alt"></i>
+                    View source
                   </a>
                 </button>
               </div>
               <img src={img2} alt="" className="img2"/>
             </div>
-            <div className="proj-2">
+            <div className="proj-2" id="proj-3">
               <img src={img3} alt=""/>
               <div className="proj2-details">
-                <i className="fab fa-html5"></i>
-                <i className="fab fa-css3-alt"></i>
-                <i className="fab fa-js"></i>
                 <h2>Counter App</h2>
                 <p>Build Using HTML,SCSS,JS</p>
                 <button className="btn">
@@ -61,7 +52,7 @@ export default function Mywork() {
                     href="https://vishall0567.github.io/Counter/"
                     target="blank"
                   >
-                    View source<i className="fas fa-external-link-alt"></i>
+                    View source
                   </a>
                 </button>
               </div>
@@ -70,10 +61,7 @@ export default function Mywork() {
               <p>More</p>
               <a
                 href="https://github.com/vishall0567"
-                target="blank"
-              >
-                Github
-              </a>
+                target="blank">Github</a>
             </div>
           </div>
         </div>
