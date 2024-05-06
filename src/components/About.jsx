@@ -22,9 +22,7 @@ export default function About() {
               </p>
               <div className="work-arrow">
                 <p>
-                  <a href="#my-works">
-                    Check out my work
-                  </a>
+                  <a href="#my-works">Check out my work</a>
                 </p>
               </div>
             </div>
@@ -77,8 +75,7 @@ export default function About() {
                 </div>
                 <div className="work-arrow-2">
                   <p>
-                    <a href="#my-works">
-                      Check out my work</a>
+                    <a href="#my-works">Check out my work</a>
                   </p>
                 </div>
               </div>

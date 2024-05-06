@@ -10,19 +10,17 @@ export default function Mywork() {
           <div className="proj-heading">
             <h1>Portfolio</h1>
           </div>
+
           <div className="portfolio-content container">
+
             <div className="proj-1">
               <img src={img} alt=""/>
               <div className="proj1-details">
                 <h2>TO-DO List</h2>
                 <p>Build Using HTML,CSS,JS</p>
                 <button className="btn">
-                  <a
-                    href="https://vishall0567.github.io/To-Do-List/"
-                    target="blank"
-                  >
-                    View source
-                  </a>
+                  <a href="https://vishall0567.github.io/To-Do-List/"
+                    target="blank">View source</a>
                 </button>
               </div>
             </div>
@@ -42,6 +40,7 @@ export default function Mywork() {
               </div>
               <img src={img2} alt="" className="img2"/>
             </div>
+            
             <div className="proj-2" id="proj-3">
               <img src={img3} alt=""/>
               <div className="proj2-details">
