@@ -25,13 +25,14 @@ header {
   position: fixed;
   width: 100%;
   z-index: 500;
+  background-color: #07374a;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: 80px;
 }
 
 .menu-items {

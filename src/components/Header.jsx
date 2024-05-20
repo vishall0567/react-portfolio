@@ -8,7 +8,9 @@ export default function Header() {
         <nav className="navbar">
           <div className="navbar-container container">
             <div>
-              <h1 className="navbar-brand"><strong>PortFolio</strong></h1>
+              <h1 className="navbar-brand">
+                <strong>PortFolio</strong>
+              </h1>
             </div>
             <ul className="menu-items">
               <li>
@@ -30,7 +32,7 @@ export default function Header() {
           </div>
           <div className="angle-down-icon">
             <a href="#about">
-            <img src={img3} alt="" />
+              <img src={img3} alt="" />
             </a>
           </div>
         </div>
